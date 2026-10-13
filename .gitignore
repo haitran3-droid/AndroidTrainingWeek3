@@ -1,0 +1,9 @@
+# Folders to ignore from tracking
+bai-giai/
+bai-tap/
+
+# IDE files
+.idea/
+*.iml
+.DS_Store
+Thumbs.db
