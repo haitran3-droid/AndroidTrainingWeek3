@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Glide Exercise</string>
+    <string name="title_activity">Nations And Population</string>
+    <string name="text_china">China</string>
+    <string name="text_beijing">Beijing</string>
+    <string name="text_country_flag">Country\'s flag</string>
+    <string name="text_nation">Nation: %s</string>
+    <string name="text_capital">Capital: %s</string>
+    <string name="text_population">Population: %s million people</string>
+    <string name="text_area">Area: %s Km\u00B2</string>
+    <string name="text_density">Density: %s people/Km\u00B2</string>
+    <string name="text_world_share">World Share: %s</string>
+    <string name="description">Image back</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="country_pager_title">Hiển thị với ViewPager2</string>
+    <string name="title_list_country">Top 20 quốc gia đông dân nhất</string>
+</resources>

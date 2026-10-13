@@ -1,0 +1,202 @@
+[
+  {
+    "id": 1,
+    "name": "India",
+    "flag": "india.png",
+    "capital": "New Delhi",
+    "population": 1463.9,
+    "density": 492,
+    "area": 2973190,
+    "world_share": "17.78%"
+  },
+  {
+    "id": 2,
+    "name": "China",
+    "flag": "china.png",
+    "capital": "Beijing",
+    "population": 1416.1,
+    "density": 151,
+    "area": 9388211,
+    "world_share": "17.20%"
+  },
+  {
+    "id": 3,
+    "name": "United States",
+    "flag": "united_states.png",
+    "capital": "Washington DC",
+    "population": 347.3,
+    "density": 38,
+    "area": 9147420,
+    "world_share": "4.22%"
+  },
+  {
+    "id": 4,
+    "name": "Indonesia",
+    "flag": "indonesia.png",
+    "capital": "Jakarta",
+    "population": 285.7,
+    "density": 158,
+    "area": 1811570,
+    "world_share": "3.47%"
+  },
+  {
+    "id": 5,
+    "name": "Pakistan",
+    "flag": "pakistan.png",
+    "capital": "Islamabad",
+    "population": 255.2,
+    "density": 331,
+    "area": 770880,
+    "world_share": "3.10%"
+  },
+  {
+    "id": 6,
+    "name": "Nigeria",
+    "flag": "nigeria.png",
+    "capital": "Abuja",
+    "population": 237.5,
+    "density": 261,
+    "area": 910770,
+    "world_share": "2.89%"
+  },
+  {
+    "id": 7,
+    "name": "Brazil",
+    "flag": "brazil.png",
+    "capital": "Brasilia",
+    "population": 212.8,
+    "density": 25,
+    "area": 8358140,
+    "world_share": "2.59%"
+  },
+  {
+    "id": 8,
+    "name": "Bangladesh",
+    "flag": "bangladesh.png",
+    "capital": "Dhaka",
+    "population": 175.7,
+    "density": 1350,
+    "area": 130170,
+    "world_share": "2.13%"
+  },
+  {
+    "id": 9,
+    "name": "Russia",
+    "flag": "russia.png",
+    "capital": "Moscow",
+    "population": 144.0,
+    "density": 9,
+    "area": 16376870,
+    "world_share": "1.75%"
+  },
+  {
+    "id": 10,
+    "name": "Mexico",
+    "flag": "mexico.png",
+    "capital": "Mexico City",
+    "population": 131.9,
+    "density": 68,
+    "area": 1943950,
+    "world_share": "1.60%"
+  },
+  {
+    "id": 11,
+    "name": "Ethiopia",
+    "flag": "ethiopia.png",
+    "capital": "Addis Ababa",
+    "population": 135.5,
+    "density": 135,
+    "area": 1000000,
+    "world_share": "1.65%"
+  },
+  {
+    "id": 12,
+    "name": "Japan",
+    "flag": "japan.png",
+    "capital": "Tokyo",
+    "population": 123.1,
+    "density": 338,
+    "area": 364555,
+    "world_share": "1.50%"
+  },
+  {
+    "id": 13,
+    "name": "Egypt",
+    "flag": "egypt.png",
+    "capital": "Cairo",
+    "population": 118.4,
+    "density": 119,
+    "area": 995450,
+    "world_share": "1.44%"
+  },
+  {
+    "id": 14,
+    "name": "Philippines",
+    "flag": "philippines.png",
+    "capital": "Manila",
+    "population": 116.8,
+    "density": 392,
+    "area": 298170,
+    "world_share": "1.42%"
+  },
+  {
+    "id": 15,
+    "name": "DR Congo",
+    "flag": "dr_congo.png",
+    "capital": "Kinshasa",
+    "population": 112.8,
+    "density": 50,
+    "area": 2267050,
+    "world_share": "1.37%"
+  },
+  {
+    "id": 16,
+    "name": "Vietnam",
+    "flag": "vietnam.png",
+    "capital": "Hanoi",
+    "population": 101.6,
+    "density": 328,
+    "area": 310070,
+    "world_share": "1.23%"
+  },
+  {
+    "id": 17,
+    "name": "Iran",
+    "flag": "iran.png",
+    "capital": "Tehran",
+    "population": 92.4,
+    "density": 57,
+    "area": 1628550,
+    "world_share": "1.12%"
+  },
+  {
+    "id": 18,
+    "name": "Turkey",
+    "flag": "turkey.png",
+    "capital": "Ankara",
+    "population": 87.7,
+    "density": 114,
+    "area": 769630,
+    "world_share": "1.07%"
+  },
+  {
+    "id": 19,
+    "name": "Germany",
+    "flag": "germany.png",
+    "capital": "Berlin",
+    "population": 84.1,
+    "density": 241,
+    "area": 348560,
+    "world_share": "1.02%"
+  },
+  {
+    "id": 20,
+    "name": "Thailand",
+    "flag": "thailand.png",
+    "capital": "Bangkok",
+    "population": 71.6,
+    "density": 140,
+    "area": 510890,
+    "world_share": "0.87%"
+  }
+]
