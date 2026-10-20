@@ -21,6 +21,11 @@ Translator chọn âm thanh có sẵn dựa trên biên độ giọng nói thu �
     <td><img src="readme-assets/screenshots/fake-call.jpg" alt="Fake Call: danh sách bốn thú cưng để bắt đầu cuộc gọi giả lập" width="280"></td>
     <td><img src="readme-assets/screenshots/training.jpg" alt="Training: màn hình Coming soon" width="280"></td>
   </tr>
+  <tr><th>Microphone permission</th><th>Camera permission</th></tr>
+  <tr>
+    <td><img src="readme-assets/screenshots/microphone-permission.png" alt="Microphone permission: hộp thoại giải thích quyền micro để ghi âm trong Translator" width="280"></td>
+    <td><img src="readme-assets/screenshots/camera-permission.png" alt="Camera permission: hộp thoại giải thích quyền camera để hiển thị hình ảnh trong Fake Call" width="280"></td>
+  </tr>
 </table>
 
 ## Tính năng
