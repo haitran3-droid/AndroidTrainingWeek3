@@ -1,0 +1,34 @@
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.example.dogcattranslator.ui.home.HomeFragment" />
+    <fragment
+        android:id="@+id/soundFragment"
+        android:name="com.example.dogcattranslator.ui.sound.SoundFragment" />
+    <fragment
+        android:id="@+id/fakeCallFragment"
+        android:name="com.example.dogcattranslator.ui.fakecall.FakeCallFragment" />
+    <fragment
+        android:id="@+id/trainingFragment"
+        android:name="com.example.dogcattranslator.ui.common.TrainingFragment" />
+    <fragment
+        android:id="@+id/incomingCallFragment"
+        android:name="com.example.dogcattranslator.ui.fakecall.IncomingCallFragment">
+        <argument
+            android:name="animalId"
+            app:argType="string"
+            android:defaultValue="husky" />
+    </fragment>
+    <fragment
+        android:id="@+id/inCallFragment"
+        android:name="com.example.dogcattranslator.ui.fakecall.InCallFragment">
+        <argument
+            android:name="animalId"
+            app:argType="string"
+            android:defaultValue="husky" />
+    </fragment>
+</navigation>

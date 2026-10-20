@@ -1,0 +1,26 @@
+<resources>
+    <color
+        name="orange">#FF8A00</color>
+    <color
+        name="orange_text">#B84C00</color>
+    <color
+        name="peach">#FFF0E5</color>
+    <color
+        name="white">#FFFFFF</color>
+    <color
+        name="ink">#171717</color>
+    <color
+        name="gray">#646464</color>
+    <color
+        name="line">#DEDEDE</color>
+    <color
+        name="nav_background">#363636</color>
+    <color
+        name="nav_inactive">#BDBDBD</color>
+    <color
+        name="green">#43A62C</color>
+    <color
+        name="red">#E50016</color>
+    <color
+        name="scrim">#80000000</color>
+</resources>

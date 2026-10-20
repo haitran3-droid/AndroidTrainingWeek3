@@ -1,0 +1,103 @@
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+        <com.google.android.material.appbar.MaterialToolbar
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            app:title="@string/app_name"
+            app:titleCentered="true"
+            app:titleTextAppearance="@style/TextAppearance.MaterialComponents.Subtitle1" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:layout_marginHorizontal="16dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <com.example.dogcattranslator.ui.common.AnimalPosterView
+                android:id="@+id/human_poster"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:padding="16dp"
+                android:scaleType="fitCenter"
+                android:background="@drawable/bg_peach"
+                android:contentDescription="@string/human" />
+            <ImageView
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:padding="12dp"
+                android:src="@drawable/ic_swap"
+                android:contentDescription="@string/swap" />
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/animal_selector"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_weight="1"
+                android:text="@string/dog"
+                android:textColor="@color/ink"
+                app:icon="@drawable/ic_paw"
+                app:iconTint="@color/ink"
+                app:backgroundTint="@color/peach" />
+        </LinearLayout>
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <ImageButton
+            android:id="@+id/record_button"
+            android:layout_width="104dp"
+            android:layout_height="104dp"
+            android:padding="26dp"
+            android:scaleType="fitCenter"
+            android:background="@drawable/bg_orange"
+            android:src="@drawable/ic_mic"
+            android:contentDescription="@string/record"
+            android:layout_marginTop="48dp" />
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:paddingHorizontal="24dp"
+            android:gravity="center"
+            android:text="@string/record_hint"
+            android:textColor="@color/ink"
+            android:textSize="16sp"
+            android:accessibilityLiveRegion="polite" />
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="@string/timer_zero"
+            android:textColor="@color/ink"
+            android:textSize="32sp"
+            android:fontFamily="sans-serif-medium" />
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/replay_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/play"
+            app:icon="@drawable/ic_play"
+            android:visibility="gone" />
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+        <com.example.dogcattranslator.ui.common.WaveformView
+            android:id="@+id/waveform"
+            android:layout_width="match_parent"
+            android:layout_height="96dp"
+            android:layout_marginTop="32dp"
+            android:importantForAccessibility="no" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

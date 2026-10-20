@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/media_credits"
+        android:icon="@android:drawable/ic_menu_info_details"
+        android:title="@string/media_credits"
+        app:showAsAction="always" />
+</menu>

@@ -1,0 +1,93 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/ink">
+    <com.example.dogcattranslator.ui.common.AnimalPosterView
+        android:id="@+id/poster"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop" />
+    <androidx.media3.ui.PlayerView
+        android:id="@+id/player_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:use_controller="false"
+        app:resize_mode="zoom"
+        android:visibility="gone" />
+    <FrameLayout
+        android:id="@+id/camera_frame"
+        android:layout_width="@dimen/camera_width"
+        android:layout_height="@dimen/camera_height"
+        android:layout_gravity="top|end"
+        android:layout_margin="16dp"
+        android:background="@drawable/bg_scrim">
+        <androidx.camera.view.PreviewView
+            android:id="@+id/preview_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:implementationMode="compatible"
+            android:contentDescription="@string/selfie_pending" />
+        <TextView
+            android:id="@+id/camera_placeholder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:padding="8dp"
+            android:text="@string/selfie_pending"
+            android:textColor="@color/white"
+            android:textSize="12sp" />
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="@dimen/call_panel_padding"
+        android:background="@drawable/bg_scrim">
+        <TextView
+            android:id="@+id/status"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/missing_video"
+            android:textColor="@color/white"
+            android:accessibilityLiveRegion="polite" />
+        <TextView
+            android:id="@+id/timer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/timer_zero"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:orientation="horizontal"
+            android:gravity="center">
+            <ImageButton
+                android:id="@+id/camera_button"
+                style="@style/IconButton"
+                android:background="@drawable/bg_scrim"
+                android:src="@drawable/ic_camera"
+                android:contentDescription="@string/camera" />
+            <ImageButton
+                android:id="@+id/end_button"
+                style="@style/CallButton"
+                android:layout_marginHorizontal="24dp"
+                android:background="@drawable/bg_red"
+                android:src="@drawable/ic_hangup"
+                android:contentDescription="@string/end_call" />
+            <ImageButton
+                android:id="@+id/mic_button"
+                style="@style/IconButton"
+                android:background="@drawable/bg_scrim"
+                android:src="@drawable/ic_mic"
+                android:contentDescription="@string/mute_video" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <dimen
+        name="camera_width">84dp</dimen>
+    <dimen
+        name="camera_height">112dp</dimen>
+    <dimen
+        name="call_panel_padding">12dp</dimen>
+</resources>

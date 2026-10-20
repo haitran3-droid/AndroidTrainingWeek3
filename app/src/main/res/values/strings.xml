@@ -1,0 +1,133 @@
+<resources>
+    <string name="media_credits">Nguồn tài nguyên</string>
+    <string
+        name="app_name">Dog - Cat Translator</string>
+    <string
+        name="translator">Translator</string>
+    <string
+        name="sound">Sound</string>
+    <string
+        name="fake_call">Fake call</string>
+    <string
+        name="training">Training</string>
+    <string
+        name="coming_soon">Coming soon</string>
+    <string
+        name="sound_player">Dog &amp; Cat Sounds</string>
+    <string
+        name="sound_item_label">%1$s - %2$s</string>
+    <string
+        name="cat_sound_player">Cat Sound Player</string>
+    <string
+        name="record_hint">Tap to record your voice</string>
+    <string
+        name="timer_zero">00:00</string>
+    <string
+        name="human">Human</string>
+    <string
+        name="dog">Dog</string>
+    <string
+        name="cat">Cat</string>
+    <string
+        name="swap">Human to pet</string>
+    <string
+        name="record">Record voice</string>
+    <string
+        name="stop_recording">Stop recording</string>
+    <string
+        name="play">Play</string>
+    <string
+        name="pause">Pause</string>
+    <string
+        name="back">Back</string>
+    <string
+        name="volume">Volume</string>
+    <string
+        name="call">Start a call</string>
+    <string
+        name="incoming">incoming video call…</string>
+    <string
+        name="accept">Accept call</string>
+    <string
+        name="decline">Decline call</string>
+    <string
+        name="end_call">End call</string>
+    <string
+        name="camera">Toggle your camera</string>
+    <string name="turn_camera_on">Turn camera on</string>
+    <string name="turn_camera_off">Turn camera off</string>
+    <string
+        name="mute_video">Mute video sound</string>
+    <string
+        name="selfie_pending">Camera preview</string>
+    <string
+        name="missing_audio">Chưa có tài nguyên âm thanh</string>
+    <string
+        name="audio_error">Không thể mở âm thanh. Hãy chọn mục khác.</string>
+    <string
+        name="audio_focus_denied">Không thể phát âm thanh lúc này. Hãy thử lại.</string>
+    <string
+        name="missing_video">Chưa có tài nguyên video</string>
+    <string
+        name="video_loading">Đang mở video…</string>
+    <string
+        name="video_error">Không thể phát video. Hãy thử mục khác.</string>
+    <string
+        name="video_muted">Video sound muted</string>
+    <string
+        name="video_unmuted">Video sound on</string>
+    <string
+        name="permission_title">Permission</string>
+    <string
+        name="camera_reason">Ứng dụng cần quyền Camera để hiển thị hình ảnh của bạn trong khung video nhỏ khi gọi giả lập.</string>
+    <string
+        name="allow">Cho phép</string>
+    <string
+        name="later">Để sau</string>
+    <string
+        name="open_settings">Mở Settings</string>
+    <string
+        name="camera_denied">Chưa cấp quyền Camera. Bạn có thể thử lại khi muốn gọi.</string>
+    <string
+        name="permission_settings">Quyền đã bị từ chối. Hãy cấp lại trong Settings của ứng dụng.</string>
+    <string
+        name="camera_unavailable">Không có camera trước khả dụng.</string>
+    <string
+        name="camera_error">Không thể mở camera. Camera có thể đang được ứng dụng khác sử dụng.</string>
+    <string
+        name="camera_loading">Đang mở camera…</string>
+    <string
+        name="camera_off">Camera off</string>
+    <string
+        name="microphone_permission">Microphone permission</string>
+    <string
+        name="microphone_reason">Ứng dụng cần micro để ghi âm và lấy mẫu biên độ trong tối đa 15 giây. File tạm sẽ được xóa khi kết thúc.</string>
+    <string
+        name="microphone_denied">Chưa cấp quyền micro. Hãy cấp quyền để ghi âm.</string>
+    <string
+        name="microphone_unavailable">Thiết bị không có micro khả dụng.</string>
+    <string
+        name="recording_preparing">Đang chuẩn bị micro…</string>
+    <string
+        name="recording_active">Recording…</string>
+    <string
+        name="recording_stopping">Đang xử lý…</string>
+    <string
+        name="recording_error">Không thể ghi âm hoặc bản ghi quá ngắn. Hãy thử lại.</string>
+    <string
+        name="silent_recording">Không phát hiện âm thanh rõ ràng, hãy thử lại.</string>
+    <string
+        name="translation_result">%1$s · Peak trung bình: %2$.0f</string>
+    <string
+        name="begging">Begging</string>
+    <string
+        name="sad">Sad</string>
+    <string
+        name="angry">Angry</string>
+    <string
+        name="happy">Happy</string>
+    <string
+        name="playful">Playful</string>
+    <string
+        name="sleepy">Sleepy</string>
+</resources>

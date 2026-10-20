@@ -1,0 +1,101 @@
+Media Credits
+
+dog_begging.mp3 and dog_sad.mp3
+Whining Dog - Alexander / Orange Free Sounds
+https://orangefreesounds.com/whining-dog/
+License: CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: excerpts 0-4 seconds and 5-10 seconds; mono MP3 conversion and loudness adjustment.
+
+dog_angry.mp3
+Angry Dog Growling - Alexander / Orange Free Sounds
+https://orangefreesounds.com/angry-dog-growling/
+License: CC BY 4.0
+https://creativecommons.org/licenses/by/4.0/
+Changes: mono MP3 conversion and loudness adjustment.
+
+dog_happy.mp3
+Barking of a dog - Amada44 / Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Barking_of_a_dog.ogg
+License: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+Changes: mono MP3 conversion and loudness adjustment. This audio adaptation retains CC BY-SA 3.0.
+
+dog_playful.mp3
+Barking of a dog 2 - Amada44 / Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Barking_of_a_dog_2.ogg
+License: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+Changes: mono MP3 conversion and loudness adjustment. This audio adaptation retains CC BY-SA 3.0.
+
+dog_sleepy.mp3
+A domestic dog snoring - Serial Number 54129 / Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:A_domestic_dog_snoring.ogv
+License selected: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Changes: audio-only excerpt 2-10 seconds, mono MP3 conversion and loudness adjustment. This audio adaptation retains CC BY-SA 4.0.
+
+cat_sad.mp3
+Meow - Dan Crosby (Dcrosby) / Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Meow.ogg
+License selected: CC BY-SA 3.0
+https://creativecommons.org/licenses/by-sa/3.0/
+Changes: mono MP3 conversion and loudness adjustment. This audio adaptation retains CC BY-SA 3.0.
+
+cat_happy.mp3
+Whiskers' purr - Adam Cuerden / Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Whiskers%27_purr.ogg
+Public domain dedication by the author.
+Changes: first 8 seconds, mono MP3 conversion and loudness adjustment.
+
+cat_angry.mp3
+Grunido gato (Chacha) - Luisalvaz / Wikimedia Commons
+https://commons.wikimedia.org/wiki/File:Gru%C3%B1ido_gato_(Chacha).ogg
+License: CC BY-SA 4.0
+https://creativecommons.org/licenses/by-sa/4.0/
+Changes: excerpt 1-7 seconds, mono MP3 conversion and loudness adjustment. This audio adaptation retains CC BY-SA 4.0.
+
+Call Videos
+
+husky_call.mp4
+A white and gray husky dog standing in the snow - iddea photo / Pexels
+https://www.pexels.com/video/a-white-and-gray-husky-dog-standing-in-the-snow-19563250/
+Video license: Pexels License
+https://www.pexels.com/license/
+Changes: first 4 seconds; scaled/cropped to 720x1280, 30 fps, H.264/AAC.
+Original sound replaced with dog_begging (Whining Dog, Alexander / Orange Free Sounds, CC BY 4.0; credited above).
+
+persian_call.mp4
+A White Persian Cat - KATRIN BOLOVTSOVA / Pexels
+https://www.pexels.com/video/a-white-persian-cat-7131832/
+Video license: Pexels License
+https://www.pexels.com/license/
+Changes: first 12 seconds; scaled/cropped to 720x1280, 30 fps, H.264/AAC.
+Added looping cat_happy (Whiskers' purr, Adam Cuerden, public domain; credited above).
+
+ginger_call.mp4
+Cat Looking Around in Room - Nothing Ahead / Pexels
+https://www.pexels.com/video/cat-looking-around-in-room-11545765/
+Video license: Pexels License
+https://www.pexels.com/license/
+Changes: first 9.7 seconds; scaled to 720x1280, 30 fps, H.264/AAC.
+Original silent soundtrack replaced with looping cat_happy (Whiskers' purr, Adam Cuerden, public domain; credited above).
+
+chihuahua_call.mp4
+A small dog sitting on top of a rock - iddea photo / Pexels
+https://www.pexels.com/video/a-small-dog-sitting-on-top-of-a-rock-27658888/
+Video license: Pexels License
+https://www.pexels.com/license/
+Changes: first 4.1 seconds; scaled to 720x1280, 30 fps, H.264/AAC.
+Added looping dog_begging (Whining Dog, Alexander / Orange Free Sounds, CC BY 4.0; credited above).
+
+All four clips contain real moving footage, not animated still portraits.
+Audio is illustrative and separately edited, not a synchronized recording of the depicted animal.
+Audio fades in for 0.15 seconds and out for the final 0.2 seconds.
+Original video and audio sources retain their respective licenses. No creator endorsement is implied.
+
+Portraits
+Sound dog portraits and Husky/Persian/Ginger/Chihuahua contact portraits were generated for this project using OpenAI image generation on 15 October 2026.
+They are illustrations of fictional contacts, not photos of the device owner.
+
+The original user-supplied mockup remains the source for the small Home human icon and permission illustration only.

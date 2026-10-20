@@ -1,0 +1,19 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_nav_translator"
+        android:title="@string/translator" />
+    <item
+        android:id="@+id/soundFragment"
+        android:icon="@drawable/ic_paw"
+        android:title="@string/sound" />
+    <item
+        android:id="@+id/fakeCallFragment"
+        android:icon="@drawable/ic_nav_fake_call"
+        android:title="@string/fake_call" />
+    <item
+        android:id="@+id/trainingFragment"
+        android:icon="@drawable/ic_nav_training"
+        android:title="@string/training" />
+</menu>
