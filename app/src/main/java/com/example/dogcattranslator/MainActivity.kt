@@ -1,6 +1,8 @@
 ﻿package com.example.dogcattranslator
 
+import android.graphics.Color
 import android.os.Bundle
+import androidx.activity.SystemBarStyle
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -25,7 +27,11 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        enableEdgeToEdge()
+        // App dùng nền sáng, kể cả khi thiết bị bật dark mode.
+        enableEdgeToEdge(
+            statusBarStyle = SystemBarStyle.light(Color.TRANSPARENT, Color.TRANSPARENT),
+            navigationBarStyle = SystemBarStyle.light(Color.TRANSPARENT, Color.BLACK),
+        )
 
         val binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
@@ -58,6 +64,8 @@ class MainActivity : AppCompatActivity() {
             binding.bottomNav.isVisible = !callScreen
 
             binding.root.setBackgroundResource(if (callScreen) R.color.ink else R.color.white)
+            systemBars.isAppearanceLightStatusBars = !callScreen
+            systemBars.isAppearanceLightNavigationBars = !callScreen
 
             if (callScreen) {
                 systemBars.systemBarsBehavior =

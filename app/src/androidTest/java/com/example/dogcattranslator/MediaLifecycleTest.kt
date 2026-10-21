@@ -65,6 +65,23 @@ class MediaLifecycleTest {
                     manager.state.value.status == PlaybackStatus.PLAYING &&
                         manager.state.value.position < 1000
                 }
+                instrumentation.runOnMainSync { manager.seekTo(3900) }
+                awaitCondition { manager.state.value.status == PlaybackStatus.COMPLETED }
+                val saved = SavedStateHandle()
+                instrumentation.runOnMainSync {
+                    manager.seekTo(1500)
+                    assertEquals(PlaybackStatus.PAUSED, manager.state.value.status)
+                    assertEquals(1500, manager.state.value.position)
+                    SoundViewModel(saved).update(manager.state.value)
+                    assertEquals(1500, SoundViewModel(saved).position)
+                }
+                // Seek hoàn tất trước khi Play vẫn phải giữ điểm người dùng chọn.
+                SystemClock.sleep(300)
+                instrumentation.runOnMainSync { manager.play() }
+                awaitCondition {
+                    manager.state.value.status == PlaybackStatus.PLAYING &&
+                        manager.state.value.position in 1500..3000
+                }
                 instrumentation.runOnMainSync { manager.prepare(null) }
                 assertEquals(R.string.missing_audio, manager.state.value.message)
                 instrumentation.runOnMainSync {

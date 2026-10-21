@@ -11,7 +11,6 @@ import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
 import com.example.dogcattranslator.R
-import com.google.android.material.snackbar.Snackbar
 
 /**
  * Dùng chung luồng kiểm tra và yêu cầu quyền camera cho các màn FakeCall.
@@ -33,12 +32,11 @@ class CameraPermissionGate(private val fragment: Fragment, private val granted: 
      * Hiển thị Snackbar thông báo từ chối quyền, kèm nút dẫn tới Cài đặt nếu bị chặn vĩnh viễn.
      */
     private fun showPermissionDenied() {
-        val view = fragment.view ?: return
         val isPermanentlyDenied =
             !fragment.shouldShowRequestPermissionRationale(Manifest.permission.CAMERA)
         val message =
             if (isPermanentlyDenied) R.string.permission_settings else R.string.camera_denied
-        val snackbar = Snackbar.make(view, message, Snackbar.LENGTH_LONG)
+        val snackbar = fragment.appSnackbar(message) ?: return
         if (isPermanentlyDenied) {
             snackbar.setAction(R.string.open_settings) { openSettings() }
         }

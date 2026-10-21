@@ -23,9 +23,9 @@ import com.example.dogcattranslator.media.AmplitudeAnalysis
 import com.example.dogcattranslator.media.SoundPlayerManager
 import com.example.dogcattranslator.media.rawMediaUri
 import com.example.dogcattranslator.ui.common.MicrophonePermissionDialog
+import com.example.dogcattranslator.ui.common.appSnackbar
 import com.example.dogcattranslator.ui.common.formatElapsed
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
-import com.google.android.material.snackbar.Snackbar
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 
@@ -231,10 +231,9 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
             wasAskedBefore && !shouldShowRequestPermissionRationale(permission)
         if (isPermanentlyDenied) {
             viewModel.showError(R.string.permission_settings)
-            val root = view ?: return
-            Snackbar.make(root, R.string.permission_settings, Snackbar.LENGTH_LONG)
-                .setAction(R.string.open_settings) { openSettings() }
-                .show()
+            appSnackbar(R.string.permission_settings)
+                ?.setAction(R.string.open_settings) { openSettings() }
+                ?.show()
             return
         }
 
@@ -249,8 +248,7 @@ class HomeFragment : Fragment(R.layout.fragment_home) {
      */
     private fun showMicrophoneDenied() {
         viewModel.showError(R.string.microphone_denied)
-        val root = view ?: return
-        val snackbar = Snackbar.make(root, R.string.microphone_denied, Snackbar.LENGTH_LONG)
+        val snackbar = appSnackbar(R.string.microphone_denied) ?: return
         if (!shouldShowRequestPermissionRationale(Manifest.permission.RECORD_AUDIO)) {
             snackbar.setAction(R.string.open_settings) { openSettings() }
         }

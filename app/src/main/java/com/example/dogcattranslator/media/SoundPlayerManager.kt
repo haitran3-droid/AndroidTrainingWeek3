@@ -214,9 +214,16 @@ class SoundPlayerManager(context: Context, private val scope: CoroutineScope) {
     fun seekTo(position: Int) {
         if (!isPrepared) return
         try {
-            player?.seekTo(position.coerceIn(0, state.value.duration))
+            val target = position.coerceIn(0, state.value.duration)
+            player?.seekTo(target)
+            // Sau khi nghe hết, tua là chọn một điểm phát mới; Play không được reset điểm đó.
             mutableState.value =
-                state.value.copy(position = position.coerceIn(0, state.value.duration))
+                state.value.copy(
+                    position = target,
+                    status =
+                        if (state.value.status == PlaybackStatus.COMPLETED) PlaybackStatus.PAUSED
+                        else state.value.status,
+                )
         } catch (_: IllegalStateException) {
             fail(R.string.audio_error)
         }
